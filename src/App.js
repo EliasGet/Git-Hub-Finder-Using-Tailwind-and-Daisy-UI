@@ -1,11 +1,14 @@
 
-import './App.css';
+
 
 function App() {
-  return (
-    <h1 className="text-5xl font-bold underline">
+  return (<div className="bg-purple-500">
+    <h1 className="text-xl font-bold">
       Hello world!
     </h1>
+    <button className="btn">Click</button>
+  </div>
+
   );
 }
 
